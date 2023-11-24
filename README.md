@@ -17,4 +17,6 @@ If you want them to be executable without having to call them with their absolut
 
 
 ## Download a certain Heroku backup
-heroku pg:backups:download -a your-app-name <backup_id>
+```sh
+$ heroku pg:backups:download -a your-app-name <backup_id>
+```
